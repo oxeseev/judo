@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+/* Хедер */
+.site-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный */
+  color: white;
+  padding: 20px 0;
+  z-index: 10;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.main-nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* Первый блок с фоном */
+.hero-section {
+  height: 100vh;
+  background: url('https://www.nure.info/uploads/posts/2017-06/1498296081_sportivnyy-klub-sportivnye-sekcii-v-hnure-sekciya-borba-dzyu-do.jpg') center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-content {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); /* затемнение под текстом */
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.desc-content{
+    margin: 30px 20px 30px 20px;
+    padding: 30px;
+    box-shadow: 0 0 10px 5px rgb(182, 182, 182);
+    border-radius: 20px;
+}
