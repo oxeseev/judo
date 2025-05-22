@@ -15,17 +15,20 @@ h1 {
   box-sizing: border-box;
 }
 
+
 body, html {
   height: 100%;
   font-family: sans-serif;
 }
 
+body {
+  background-color: #e7f6fd;
+}
+
+
 /* Хедер */
-.site-header {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный */
+.gallery-header {
+  background-color: #22232a; /* Полупрозрачный */
   color: white;
   padding: 20px 0;
   z-index: 10;
@@ -38,6 +41,14 @@ body, html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Хедер */
+.register-header {
+  background-color: #22232a; /* Полупрозрачный */
+  color: white;
+  padding: 20px 0;
+  z-index: 10;
 }
 
 .logo {
@@ -75,18 +86,18 @@ body, html {
     border-radius: 20px;
 }
     h2 {
-        color: rgb(102, 0, 0);;
+        color: #000000;
     }
     h3 {
-        color: rgb(255, 101, 101);
+        color: #000000;
     }
 
     h4 {
-        color: rgb(255, 107, 107);
+        color: #000000;
     }
 
     p {
-        color: rgb(255, 255, 255);
+        color:  #000000 ;
     }
 
 
@@ -97,11 +108,11 @@ body, html {
  }
 
  ul {
-    color: rgb(255, 236, 236);
+    color: rgb(0, 0, 0);
  }
 
  table {
-    color: rgb(255, 255, 255)
+    color: #000000
  }
 
  img{
@@ -110,5 +121,110 @@ body, html {
  
  img:hover {
     opacity: 1;
-    transform: scale(1.1);
  }
+
+ p {
+  color: #000000;
+ }
+
+
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+.info-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Стили для секций */
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #e74c3c;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+}
+
+
+a:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.gallery-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+p {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+img:hover {
+    color: #2c3e50;
+    text-decoration: underline;
+}
